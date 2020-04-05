@@ -9,7 +9,7 @@ module.exports = {
 
                 // Generate url
                 var encoded = plantumlEncoder.encode(block.body);
-                var href = 'http://www.plantuml.com/plantuml/' + format + '/' + encoded;
+                var href = 'https://www.plantuml.com/plantuml/' + format + '/' + encoded;
 
                 return '<img src="' + href + '" />';
             }
